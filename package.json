@@ -1,0 +1,21 @@
+{
+  "name": "la-refunderie-ts",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "pm2 start src/main.js",
+    "restart": "pm2 restart src/main.js",
+    "logs": "pm2 logs src/main.js",
+    "stop": "pm2 stop src/main.js && pm2 delete src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sapphire/framework": "^5.2.1",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.16.1",
+    "discord.js-captcha": "^3.0.8",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "channels": {
+    "whitelistChatChannel": {
+      "id": "1281744975251640381",
+      "description": "This is channel 1"
+    },
+    "whitelistVoiceChannel": {
+      "id": "1281728268642549792",
+      "description": "This is channel 2"
+    }
+  }
+}
